@@ -1,0 +1,40 @@
+using System;
+
+
+
+class Program 
+
+{
+  
+
+public static void Main (string[] args)
+ 
+{
+      
+    int n = int.Parse(Console.ReadLine());
+ 
+
+    int m = int.Parse(Console.ReadLine());
+  
+   
+ int cavab =1;
+   
+ 
+   for(int i=1; i<=m;i++)
+  
+
+      {
+      
+             
+             cavab=cavab*n;
+
+      }
+    
+      Console.WriteLine(cavab);
+
+
+  }
+
+
+}
+
